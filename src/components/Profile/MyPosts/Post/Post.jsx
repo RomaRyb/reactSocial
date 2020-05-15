@@ -3,8 +3,6 @@ import s from './Post.module.css'
 
 const Post = (props) => {
 
-    debugger;
-    
 
     return (
             <div className={s.item}>
@@ -12,7 +10,7 @@ const Post = (props) => {
                 {props.message}
                 <div>
                     <span>
-                        {props.likeCounts}
+                        like {props.likeCounts}
                     </span>
                 </div>
             </div>
