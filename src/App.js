@@ -8,8 +8,8 @@ import Profile from './components/Profile/Profile';
 
 
 const App = (props) => {
-    return (
-        
+    
+    return (        
             <div className='app-wrapper'>
                 <Header />
                 <Navbar />
