@@ -3,12 +3,7 @@ const UNFOLLOW = 'UNFOLLOW';
 const SET_USERS = 'SET_USERS';
 
 let initialState = {
-    users: [
-        { id: 1, photoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXdbWq30YVnQwjxpAe1vA4n9lD-JO5uM3V3RmQHq1diaxs1WF4&usqp=CAU', followed: false, fullName: 'Roma.R', status: 'want a gob', location: {country: 'Ukraine', city: 'Lviv'} },
-        { id: 2, photoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXdbWq30YVnQwjxpAe1vA4n9lD-JO5uM3V3RmQHq1diaxs1WF4&usqp=CAU', followed: true, fullName: 'Sasha', status: 'want a gob too', location: {country: 'Ukraine', city: 'Kyiv'} },
-        { id: 3, photoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXdbWq30YVnQwjxpAe1vA4n9lD-JO5uM3V3RmQHq1diaxs1WF4&usqp=CAU', followed: false, fullName: 'Vita', status: 'and i want a gob', location: {country: 'Ukraine', city: 'Chervonograd'} },
-        
-    ],
+    users: [ ],
 };
 
 const usersReducer = (state = initialState, action) => {
