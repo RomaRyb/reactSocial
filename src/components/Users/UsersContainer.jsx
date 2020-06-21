@@ -47,30 +47,7 @@ let mapStateToProps = (state) => {
     }
 }
 
-
-// let mapDispatchToProps = (dispatch) => {
-//     return {
-//         follow: (userID) => {
-//             dispatch(followAC(userID));
-//         },
-//         unfollow: (userID) => {
-//             dispatch(unfollowAC(userID));
-//         },
-//         setUsers: (users) => {
-//             dispatch(setUsersAC(users));
-//         },
-//         setCurrentPage: (pageNumber) => {
-//             dispatch(setCurrentPageAC(pageNumber));
-//         },
-//         setTotalUsersCount: (totalCount) => {
-//             dispatch(setUsersTotalCountAC(totalCount));
-//         },
-//         toggleIsFetching: (isFetching) => {
-//             dispatch(toggleIsFetchingAC(isFetching));
-//         } 
-//     }
-
-// }
+//let withRedirect = withAuthRedirect(UsersContainer);
 
 
 //export default withAuthRedirect(connect(mapStateToProps, { follow, unfollow, setCurrentPage, toggleFollowingProgress, getUsers }) (UsersContainer));
